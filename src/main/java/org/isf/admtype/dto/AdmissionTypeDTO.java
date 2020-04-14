@@ -13,7 +13,7 @@ import javax.validation.constraints.NotNull;
 @Getter
 @Setter
 public class AdmissionTypeDTO {
-    private String code;
-    @NotNull
-    private String description;
+	private String code;
+	@NotNull
+	private String description;
 }
